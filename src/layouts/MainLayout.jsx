@@ -10,7 +10,7 @@ function MainLayout() {
        <div className='h-screen'>
        <div><Navbar/></div>
        <div><BreadCrumbs/></div>
-        <main className='h-screen container flex flex-grow-1 bg-blend-lighten'>
+        <main className='container mb-5 flex flex-grow-1 bg-blend-lighten'>
             <Outlet/>
         </main>
         <div className='bg-lime-50 shadow-emerald-700'><Footer/></div>
